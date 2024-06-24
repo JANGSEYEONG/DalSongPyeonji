@@ -1,0 +1,19 @@
+# .github/ISSUE_TEMPLATE/config.yml
+blank_issues_enabled: false
+contact_links:
+  - name: 문의하기
+    url: https://github.com/JANGSEYEONG/DalSongPyeonji/issues/new
+    about: 추가적인 문의 사항이 있으면 이곳을 클릭하세요.
+issue_templates:
+  - name: 버그 리포트
+    description: 프로젝트 개선을 위해 버그를 신고해주세요.
+    title: '🐞 [버그] 제목을 입력하세요'
+    labels: bug
+    assignees: ''
+    template: bug_report.md
+  - name: 기능 요청
+    description: 새로운 기능을 제안해주세요.
+    title: '✨ [기능] 제목을 입력하세요'
+    labels: enhancement
+    assignees: ''
+    template: feature_request.md
